@@ -1,10 +1,10 @@
-Select * 
-From Covid19Project..CovidDeaths
-Order by 3,4
+-- Data for this project was obtained from https://ourworldindata.org/covid-deaths on Feb 16, 2023
 
---Select * 
---From Covid19Project..CovidVaccinations
---Order by 3,4
+-- I split that spreadsheet into two, one with Covid19 Deaths information, and one with Covid19 Vaccination information
+
+-- I added 'Where continent is not null' to basically all the queries because 
+-- I ran into issue with how there were extra columns with some data already added together by continent
+-- I would have seperated that info into its own spreadsheet if this wasnt a project piece and was planning on using it more than once
 
 
 
